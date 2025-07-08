@@ -103,7 +103,7 @@ class ErrorLinePloter:
 
 ### Repository containing the .csv with the dataset
 ### See README for more info on the structure
-fil = 'dataset_PR4&PR3.csv'
+fil = 'wCDM_Early-time_and_combinations.csv'
 
 ### Load the dataset and count the number of data points
 nr=1
@@ -310,23 +310,9 @@ for i in range(6):
 dataset_titles = [
     "PR3", "PR4", "PR3+ CC + SN+SH0ES", "PR4 + CC + SN+SH0ES", "PR3+ CC + SN+SH0ES + DESI" , "PR4+CC+SN+SH0ES + DESI"
 ]
-#dataset_titles = [
-    #"PR4", "PR4", "PR4"
-#]
-#dataset_titles_2 = [
-    #"+ CC + SN+SH0ES", "+ CC + SN+SH0ES", " + DESI"
-#]
+
 for i in range(len(dataset_titles)):
     x_ticks[i][-1]= "$\\mathrm{\\bf{"+str(dataset_titles[i])+"}}$"
-    #print(x_ticks[i][-1])
-    #if i == 1:
-       # x_ticks[i][-1]= "$\\mathrm{\\bf{"+str(dataset_titles[i])+"}}$"
-        #x_ticks[i][-2]= "$\\mathrm{\\bf{"+str(dataset_titles_2[i-1])+"}}$"
-    #if i == 2:
-        #x_ticks[i][-1]= "$\\mathrm{\\bf{"+str(dataset_titles[i])+"}}$"
-        #x_ticks[i][-2]= "$\\mathrm{\\bf{"+str(dataset_titles_2[i-1])+"}}$"
-        #x_ticks[i][-3]= "$\\mathrm{\\bf{"+str(dataset_titles_2[i])+"}}$"
-    
 for i in range(6):
     axes[i][0].tick_params(axis='y',labelsize=8)
     axes[i][0].set_yticks(positions,
@@ -348,17 +334,7 @@ axes[0][0].set_yticks(positions,
     [r"{x}".format(x=x_ticks[0][k]) for k in range(num_pos)])
 
 
-#print(x_ticks[0])
-#print the verticle SH0ES and Planck 2018 H0 values with their uncertainty
-#this is what the original code has (the one in github)
 
-#Now plt.bar works when you only have one coloumn 
-##but it does not when you have multiple 
-
-#plt.bar(73.2, 100, width=2.6, facecolor = 'cyan', alpha = 0.15)
-#plt.bar(67.27, 100, width=1.2, facecolor = 'pink', alpha = 0.25)
-
-#This is what I am trying to fix it
 for i in range(6):
     #For H0
     axes[i][2].axvspan(73.2 - 1.3, 73.2 + 1.3, color='purple', alpha=0.15)    #SH0ES
@@ -377,7 +353,7 @@ plt.savefig("wCDM Whisker Plot PR4 & PR3.pdf", dpi=2500)
 ############################BACK#################################################
 ### Repository containing the .csv with the dataset
 ### See README for more info on the structure
-fil = 'dataset_BACK.csv'
+fil = 'wCDM_Late-time.csv'
 
 ### Load the dataset and count the number of data points
 nr=1
@@ -570,23 +546,10 @@ for i in range(3):
 # setting the y axis/ticks for first column
 dataset_titles = [
     "CC +SN+SH0ES", " CC + SN+SH0ES + BAO", "CC SN+SH0ES + DESI"]
-#dataset_titles = [
-    #"PR4", "PR4", "PR4"
-#]
-#dataset_titles_2 = [
-    #"+ CC + SN+SH0ES", "+ CC + SN+SH0ES", " + DESI"
-#]
+
 for i in range(len(dataset_titles)):
     x_ticks[i][-1]= "$\\mathrm{\\bf{"+str(dataset_titles[i])+"}}$"
-    #print(x_ticks[i][-1])
-    #if i == 1:
-       # x_ticks[i][-1]= "$\\mathrm{\\bf{"+str(dataset_titles[i])+"}}$"
-        #x_ticks[i][-2]= "$\\mathrm{\\bf{"+str(dataset_titles_2[i-1])+"}}$"
-    #if i == 2:
-        #x_ticks[i][-1]= "$\\mathrm{\\bf{"+str(dataset_titles[i])+"}}$"
-        #x_ticks[i][-2]= "$\\mathrm{\\bf{"+str(dataset_titles_2[i-1])+"}}$"
-        #x_ticks[i][-3]= "$\\mathrm{\\bf{"+str(dataset_titles_2[i])+"}}$"
-    
+
 for i in range(3):
     axes[i][0].tick_params(axis='y',labelsize=8)
     axes[i][0].set_yticks(positions,
@@ -607,16 +570,7 @@ axes[0][2].set_title(r"$H_{0}\;[\mathrm{km\;s^{-1}\;Mpc^{-1}}]$")
 axes[0][0].set_yticks(positions, 
     [r"{x}".format(x=x_ticks[0][k]) for k in range(num_pos)])
 
-#print the verticle SH0ES and Planck 2018 H0 values with their uncertainty
-#this is what the original code has (the one in github)
 
-#Now plt.bar works when you only have one coloumn 
-##but it does not when you have multiple 
-
-#plt.bar(73.2, 100, width=2.6, facecolor = 'cyan', alpha = 0.15)
-#plt.bar(67.27, 100, width=1.2, facecolor = 'pink', alpha = 0.25)
-
-#This is what I am trying to fix it
 for i in range(3):
     #For H0
     axes[i][2].axvspan(73.2 - 1.3, 73.2 + 1.3, color='purple', alpha=0.15)    #SH0ES
