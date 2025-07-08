@@ -34,7 +34,7 @@ MontePython software was used for the Monte Carlo Markov Chain (MCMC) code ```Co
 GetDist software was also used for the plotting of the triangular plots (```GetDist: a Python package for analysing Monte Carlo samples https://doi.org/10.48550/arXiv.1910.13970 ``` ). The link to the GetDist Github page can be found https://github.com/cmbant/getdist?tab=readme-ov-file
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-#Licence
+# Licence
 
 This work is under the GNU LGPL Licence. You are free to use, modify, and share this work, as an additional clause, when using the code in a scientific publication, you are also required to cite the paper: ``` ````
 
