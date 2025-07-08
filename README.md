@@ -9,3 +9,15 @@ Here you find the background.c file where the cases of each model were added in 
 For the oscillatory model, a numerical integral calculator was required for the computation of the Ci and Si integrals. The library complex.c was added to the source folder of CLASS and a file cisi.c was made containing the numerical integral and was also added to the source folder. Since a new file was added to CLASS, a header file in the include folder of CLASS was required cisi.h. 
 
 To compile CLASS with the newly added file, the Makefile was adjusted to contain the new file. The updated Makefile is included in this repository.
+
+-------------------------------------------------------------------------------------------------------------------
+
+The folder 'Whisker plot' in this repository contains the code for the plotting a whisker plot, as shown in this paper. In the folder, you will find two .csv files: the wCDM_Late-time.csv file includes the values of the four wCDM models using late-time data combinations; and the wCDM_Early-time_and_combinations.csv file holds the values of the models using Early-time data and combinations of Early-time with Late-time data. 
+
+The code generates a whisker plot using the data of wCDM_Late-time.csv, and a whisker plot using wCDM_Early-time_and_combinations.csv. The original code was adapted from Luca Visinelli (Link: https://github.com/lucavisinelli/H0TensionRealm.git), and modifications were made to generate the figures presented.
+
+In the .csv files, the columns: w0, wa, H0, and Sigma8 show the mean values of each parameter; w0_m, wa_m, H0_m, and Sigma8_m present the negative uncertainty of each parameter; and w0_p, wa_p, H0_p, and Sigma8_p show the positive uncertainty. 
+
+As for the rows, in the case of wCDM_Early-time_and_combinaitons.csv: rows 2 - 6 contain the values of the standard model and the four wCDM models when PR3 only was used; rows 7 - 11 present the values when PR4 was taken; rows 12 - 16 show the values when PR3 + CC + SN+SH0ES data combination was used; rows 17 - 21 demonstrate the values when PR4 + CC + SN+SH0ES data combination was taken; rows 22 - 26 show the values of the models when PR3 + CC + SN+SH0ES + DESI was considered; and rows 27 - 31 present the shows when PR4 + CC + SH0ES + DESI was used. 
+
+For wCDM_Late-time.csv: rows 2 - 6 show the values of the LCDM model and the tested models when CC + SN+SH0ES was taken; rows 7- 11 present the values of the models when CC + SN+SH0ES + BAO was used; and rows 11 - 16 show the values when CC + SN+SH0ES + DESI was considered. 
