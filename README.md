@@ -27,11 +27,11 @@ For wCDM_Late-time.csv: rows 2 - 6 show the values of the LCDM model and the tes
 ---------------------------------------------------------------------------------------------------------------------------------------
 # Used Software 
 
-In this research, CLASS (```CLASS II: Approximation schemes <http://arxiv.org/abs/1104.2933>```) was used to handle the computation of the background and perturbation equations. The link to the CLASS Github can be found ``` https://github.com/lesgourg/class_public ```. 
+In this research, CLASS (```CLASS II: Approximation schemes <http://arxiv.org/abs/1104.2933>```) was used to handle the computation of the background and perturbation equations. The link to the CLASS Github can be found https://github.com/lesgourg/class_public . 
 
-MontePython software was used for the Monte Carlo Markov Chain (MCMC) code ``` https://doi.org/10.48550/arXiv.1210.7183 ```, ``` https://doi.org/10.48550/arXiv.1804.07261 ```. The link to the MontePython Github can be found ``` https://github.com/brinckmann/montepython_public ``` . 
+MontePython software was used for the Monte Carlo Markov Chain (MCMC) code ```Conservative Constraints on Early Cosmology  https://doi.org/10.48550/arXiv.1210.7183 ```, ``` MontePython 3: boosted MCMC sampler and other features https://doi.org/10.48550/arXiv.1804.07261 ```. The link to the MontePython Github can be found https://github.com/brinckmann/montepython_public . 
 
-GetDist software was also used for the plotting of the triangular plots ``` https://doi.org/10.48550/arXiv.1910.13970 ``` . The link to the GetDist Github page can be found ``` https://github.com/cmbant/getdist?tab=readme-ov-file ```
+GetDist software was also used for the plotting of the triangular plots (```GetDist: a Python package for analysing Monte Carlo samples https://doi.org/10.48550/arXiv.1910.13970 ``` ). The link to the GetDist Github page can be found https://github.com/cmbant/getdist?tab=readme-ov-file
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 #Licence
