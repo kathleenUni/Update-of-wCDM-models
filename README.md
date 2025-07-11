@@ -36,6 +36,6 @@ GetDist software was also used for the plotting of the triangular plots (```GetD
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 # Licence
 
-This work is under the GNU LGPL Licence. You are free to use, modify, and share this work, as an additional clause, when using the code in a scientific publication, you are also required to cite the paper: ``` ````
+This work is under the GNU LGPL Licence. You are free to use, modify, and share this work, as an additional clause, when using the code in a scientific publication, you are also required to cite the paper: ```ADD LINK TO PAPER ``` Please read the license terms for more information.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
