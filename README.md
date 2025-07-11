@@ -25,7 +25,7 @@ As for the rows, in the case of wCDM_Early-time_and_combinaitons.csv: rows 2 - 6
 For wCDM_Late-time.csv: rows 2 - 6 show the values of the LCDM model and the tested models when ```CC + SN+SH0ES``` was taken; rows 7- 11 present the values of the models when ```CC + SN+SH0ES + BAO``` was used; and rows 11 - 16 show the values when ```CC + SN+SH0ES + DESI``` was considered. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-# Used Software 
+# Software Used 
 
 In this research, CLASS (```CLASS II: Approximation schemes <http://arxiv.org/abs/1104.2933>```) was used to handle the computation of the background and perturbation equations. The link to the CLASS Github can be found https://github.com/lesgourg/class_public . 
 
