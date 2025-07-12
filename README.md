@@ -2,7 +2,7 @@
 
 In this paper, CLASS and MontePython were used. This repository contains the constant (w0CDM) model, the quadratic model (Jassal-Bagla-Padmanabhan), the logarithmic model (G.Efstathiou), and the oscillatory model proposed by Zhang and Ma. This work was done in association with the paper 
 
-``` LINK TO THE PAPER ```
+``` The link to the paper will be added shortly ```
 
 Here you find the background.c file where the cases of each model were added in order to be called later on through the param file of MontePython. In this file, you can see the changes that were made for the implementation of the models in lines 745 - 894. This file needs to be exchanged with the original background.c found in the source file of CLASS. 
 
@@ -36,6 +36,6 @@ GetDist software was also used for the plotting of the triangular plots (```GetD
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 # Licence
 
-This work is under the GNU LGPL Licence. You are free to use, modify, and share this work, as an additional clause, when using the code in a scientific publication, you are also required to cite the paper: ```ADD LINK TO PAPER ``` Please read the license terms for more information.
+This work is under the GNU LGPL Licence. You are free to use, modify, and share this work, as an additional clause, when using the code in a scientific publication, you are also required to cite the paper: ```the link to the paper will be added shortly ``` Please read the license terms for more information.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
