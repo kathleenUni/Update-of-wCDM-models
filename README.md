@@ -25,6 +25,13 @@ As for the rows, in the case of wCDM_Early-time_and_combinaitons.csv: rows 2 - 6
 For wCDM_Late-time.csv: rows 2 - 6 show the values of the LCDM model and the tested models when ```CC + SN+SH0ES``` was taken; rows 7- 11 present the values of the models when ```CC + SN+SH0ES + BAO``` was used; and rows 11 - 16 show the values when ```CC + SN+SH0ES + DESI``` was considered. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+# Data and Figures
+
+In the Values and Figures folder, you will find six compressed folders containing the runs, values that are seen in the tables, and the figures that are presented in the paper. There are also the runs for the LCDM model, as they were used for the calculation of the Delta AIC and Delta BIC.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 # Software Used 
 
 In this research, CLASS (```CLASS II: Approximation schemes <http://arxiv.org/abs/1104.2933>```) was used to handle the computation of the background and perturbation equations. The link to the CLASS Github can be found https://github.com/lesgourg/class_public . 
