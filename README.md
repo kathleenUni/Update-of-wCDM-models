@@ -2,7 +2,7 @@
 
 In this paper, CLASS and MontePython were used. This repository contains the constant (w0CDM) model, the quadratic model (Jassal-Bagla-Padmanabhan), the logarithmic model (G.Efstathiou), and the oscillatory model proposed by Zhang and Ma. This work was done in association with the paper 
 
-``` LINK TO THE PAPER ```
+``` The link to the paper will be added shortly ```
 
 Here you find the background.c file where the cases of each model were added in order to be called later on through the param file of MontePython. In this file, you can see the changes that were made for the implementation of the models in lines 745 - 894. This file needs to be exchanged with the original background.c found in the source file of CLASS. 
 
@@ -25,7 +25,7 @@ As for the rows, in the case of wCDM_Early-time_and_combinaitons.csv: rows 2 - 6
 For wCDM_Late-time.csv: rows 2 - 6 show the values of the LCDM model and the tested models when ```CC + SN+SH0ES``` was taken; rows 7- 11 present the values of the models when ```CC + SN+SH0ES + BAO``` was used; and rows 11 - 16 show the values when ```CC + SN+SH0ES + DESI``` was considered. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-# Used Software 
+# Software Used 
 
 In this research, CLASS (```CLASS II: Approximation schemes <http://arxiv.org/abs/1104.2933>```) was used to handle the computation of the background and perturbation equations. The link to the CLASS Github can be found https://github.com/lesgourg/class_public . 
 
@@ -34,8 +34,8 @@ MontePython software was used for the Monte Carlo Markov Chain (MCMC) code ```Co
 GetDist software was also used for the plotting of the triangular plots (```GetDist: a Python package for analysing Monte Carlo samples https://doi.org/10.48550/arXiv.1910.13970 ``` ). The link to the GetDist Github page can be found https://github.com/cmbant/getdist?tab=readme-ov-file
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-#Licence
+# Licence
 
-This work is under the GNU LGPL Licence. You are free to use, modify, and share this work, as an additional clause, when using the code in a scientific publication, you are also required to cite the paper: ``` ````
+This work is under the GNU LGPL Licence. You are free to use, modify, and share this work, as an additional clause, when using the code in a scientific publication, you are also required to cite the paper: ```the link to the paper will be added shortly ``` Please read the license terms for more information.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
