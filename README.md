@@ -28,7 +28,7 @@ For wCDM_Late-time.csv: rows 2 - 6 show the values of the LCDM model and the tes
 
 # Data and Figures
 
-In the Values and Figures folder, you will find six compressed folders containing the runs, values that are seen in the tables, and the figures that are presented in the paper. There are also the runs for the LCDM model, as they were used for the calculation of the Delta AIC and Delta BIC.
+In the Values and Figures folder, you will find six compressed folders containing the runs, values that are seen in the tables, and the figures that are presented in the paper. There are also the runs for the LCDM model, as they were used for the calculation of the Delta AIC and Delta BIC. In the folder, you will also find a text file "Rows_Removed.txt". In this file, you will find the number of rows that were ignored when generating the figures through GetDist and the number of fine bins that were taken for the oscillatory model when Planck 2020 was used due to the completely degenerate sigma_8. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
