@@ -1,0 +1,8 @@
+rows removed
+
+
+Late-time only: 500
+
+Early-time only: 35000 	(For the oscillatory model, when the PR4 model was used, the fine bins was changed to 30000 due to the complete degeneracy on sigma_8)
+
+Early-time with Late-time: 25000
