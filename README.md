@@ -1,4 +1,4 @@
-# Update-of-wCDM-models
+# Testing Planck 2020 and DESI data on wCDM Models
 
 In this paper, CLASS and MontePython were used. This repository contains the constant (w0CDM) model, the quadratic model (Jassal-Bagla-Padmanabhan), the logarithmic model (G.Efstathiou), and the oscillatory model proposed by Zhang and Ma. This work was done in association with the paper 
 
